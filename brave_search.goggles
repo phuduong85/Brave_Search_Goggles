@@ -4,8 +4,6 @@
 ! author: Phu Duong
 ! avatar: #9244e0
 
-$discard,site=eurogamer.net
-
 !!! !!!!!!!!!!!!! !!!
 !!  BOOSTED SITES  !!
 !!! !!!!!!!!!!!!! !!!
@@ -16,9 +14,8 @@ $boost=10,site=prydwen.gg
 !!! !!!!!!!!!!!!! !!!
 !!  BLOCKED SITES  !!
 !!! !!!!!!!!!!!!! !!!
-
-site=eurogamer.net $discard
-site=gamsgo.com $discard
+$discard,site=eurogamer.net
+$discard,site=gamsgo.com
 *.in/* $discard
 
 !!! !!!!!!!!!!!! !!!

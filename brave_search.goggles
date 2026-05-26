@@ -230,3 +230,21 @@ $discard,site=pythonissues.com
 $discard,site=pythonrepo.com
 $discard,site=reposhub.com
 $discard,site=wenyanet.com
+
+! name: Block Indian Domains
+! description: Discards all search results from India's country code top-level domains.
+
+! This wildcard matches any domain ending in .in before the URL path begins
+*.in/* $discard
+
+! Explicitly blocking common sub-TLDs ensures comprehensive coverage
+*.co.in/* $discard
+*.org.in/* $discard
+*.net.in/* $discard
+*.gov.in/* $discard
+*.ac.in/* $discard
+*.edu.in/* $discard
+*.res.in/* $discard
+*.firm.in/* $discard
+*.gen.in/* $discard
+*.ind.in/* $discard

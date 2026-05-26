@@ -251,11 +251,12 @@ $discard,site=pythonrepo.com
 $discard,site=reposhub.com
 $discard,site=wenyanet.com
 
-! name: Block Indian Domains
+! name: Block Indian & Bangladesh Domains
 ! description: Discards all search results from India's country code top-level domains.
 
 ! This wildcard matches any domain ending in .in before the URL path begins
 *.in/* $discard
+*.bd/*  $discard
 
 ! Explicitly blocking common sub-TLDs ensures comprehensive coverage
 *.co.in/* $discard
@@ -268,6 +269,83 @@ $discard,site=wenyanet.com
 *.firm.in/* $discard
 *.gen.in/* $discard
 *.ind.in/* $discard
+
+! --- INDIA SITES (.com/.net) ---
+
+! -- News & Media Empires --
+site=timesofindia.com $discard
+site=economictimes.com $discard
+site=jagran.com $discard
+site=bhaskar.com $discard
+site=amarujala.com $discard
+site=patrika.com $discard
+site=livemint.com $discard
+site=scroll.in $discard
+site=thequint.com $discard
+site=thewire.in $discard
+site=opindia.com $discard
+site=republicworld.com $discard
+site=abplive.com $discard
+site=indiatvnews.com $discard
+site=timesnowhindi.com $discard
+site=jansatta.com $discard
+site=inextlive.com $discard
+
+! -- Entertainment, Sports & Streaming --
+site=cricbuzz.com $discard
+site=espncricinfo.com $discard
+site=hotstar.com $discard
+site=jiocinema.com $discard
+site=voot.com $discard
+site=sonyliv.com $discard
+site=zee5.com $discard
+site=altbalaji.com $discard
+site=jiosaavn.com $discard
+site=gaana.com $discard
+site=bookmyshow.com $discard
+site=bcci.tv $discard
+
+! -- E-Commerce, Travel & Services --
+site=makemytrip.com $discard
+site=cleartrip.com $discard
+site=yatra.com $discard
+site=indiamart.com $discard
+site=meesho.com $discard
+site=myntra.com $discard
+site=nykaa.com $discard
+site=naukri.com $discard
+site=shine.com $discard
+site=foundit.in $discard
+site=justdial.com $discard
+site=urbancompany.com $discard
+site=zomato.com $discard
+site=swiggy.com $discard
+
+! --- BANGLADESH SITES (.com/.net/.tv) ---
+
+! -- News & Media --
+site=samakal.com $discard
+site=ittefaq.com.bd $discard
+site=dailynayadiganta.com $discard
+site=jaijaidinbd.com $discard
+site=bhorerkagoj.com $discard
+site=mzamin.com $discard
+site=dailyjanakantha.com $discard
+site=inqilab.com $discard
+site=amadershomoy.com $discard
+site=bdmorning.com $discard
+site=banglatribune.com $discard
+site=poriborton.com $discard
+site=dhakapost.com $discard
+site=bangla.bdnews24.com $discard
+
+! -- Commerce & Services --
+site=bproperty.com $discard
+site=bikroy.com $discard
+site=chaldal.com $discard
+site=daraz.com.bd $discard
+site=rokomari.com $discard
+site=shohoz.com $discard
 
 !!! !!!!!!!!!!!!!!!!!!!!!! !!!
 !!  Hacker News / 1k short  !!

@@ -1,4 +1,4 @@
-! name: Custom Search Result Blocked
+! name: De's Custom Search Result
 ! description: custom goggles
 ! public: true
 ! author: Phu Duong
@@ -22,9 +22,6 @@ $discard,site=gamsgo.com
 !!  NO PINTEREST  !!
 !!! !!!!!!!!!!!! !!!
 
-! name: No Pinterest
-! description: Rerank results to remove pages / threads hosted on Pinterest.
-! author: Goggles 101
 ! last updated: Mon, May 25, 2026
 
 $discard,site=investor.pinterestinc.com
@@ -349,9 +346,6 @@ site=shohoz.com $discard
 !!  Hacker News / 1k short  !!
 !!! !!!!!!!!!!!!!!!!!!!!!! !!!
 
-! name: Hacker News / 1k short
-! description: Prioritizes domains popular with the Hacker News community, minus those that would rank among the top 1000 most-viewed websites.
-! author: Goggles 101
 ! last updated: Sat, Feb 28, 2026
 
 $discard

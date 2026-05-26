@@ -6,6 +6,20 @@
 
 $discard,site=eurogamer.net
 
+!!! !!!!!!!!!!!!! !!!
+!!  BOOSTED SITES  !!
+!!! !!!!!!!!!!!!! !!!
+
+$boost=10,site=game8.co
+$boost=10,site=prydwen.gg
+
+!!! !!!!!!!!!!!!! !!!
+!!  BLOCKED SITES  !!
+!!! !!!!!!!!!!!!! !!!
+
+site=eurogamer.net $discard
+*.in/* $discard
+
 !!! !!!!!!!!!!!! !!!
 !!  NO PINTEREST  !!
 !!! !!!!!!!!!!!! !!!

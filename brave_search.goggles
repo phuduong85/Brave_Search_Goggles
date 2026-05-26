@@ -1,5 +1,5 @@
 ! name: De's Custom Search Result
-! description: custom goggles
+! description: De's Custom Goggles
 ! public: true
 ! author: Phu Duong
 ! avatar: #9244e0
@@ -246,8 +246,7 @@ $discard,site=pythonrepo.com
 $discard,site=reposhub.com
 $discard,site=wenyanet.com
 
-! name: Block Indian & Bangladesh Domains
-! description: Discards all search results from India's country code top-level domains.
+!! Block Indian & Bangladesh Domains
 
 ! This wildcard matches any domain ending in .in before the URL path begins
 *.in/* $discard
